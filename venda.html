@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/est_venda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="path-to-zoom-css-file.css">
+    <link rel="shortcut icon" href="img/icom-np-sf-icone.ico" type="image/x-icon">
+    <title>Venda</title>
+</head>
+<body> 
+<!--cabeçalho-->
+    <header>
+        <img src="img/Nutri_Pet_1.png" alt="">
+        <div class="linha"></div>
+        <div class="barra">
+         <!--opções-->
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="venda.html">Produto</a></li>
+            </ul>
+        </div>
+        <div class="linha"></div>
+    </header>
+<!--fim_cabeçalho-->
+<!--corpo-->
+        <div id="org_sub_img">
+            <img onclick="alterarImg(this)" id="img_sub1"  src="img/alysson.jpg" alt="img_sub1">
+            <img onclick="alterarImg(this)" id="img_sub2"  src="img/idiota.jpg" alt="img_sub2">
+       </div>
+    <div class="beribaldo">
+       <img id="img_produto" src="img/eero.jpeg" alt="img_produto" >
+       
+      <!--nome_preço_compra-->     
+       <div class="org_produto">     
+        <h2 class="nome_produto">Nutri Pet (Dispenser automatico de ração) </h2>
+        <!--preços-->
+        <div class="preco_produto">
+            <p class="porcentagem"><i>-17%</i></p>
+            <p class="pre_produto"> <strong >R$665,99</strong></p>
+            <p class="pre2_produto">De <s>R$800,00</s> <br> </p>           
+        </div>
+        <p class="parcela">Em até 2x R$ 332,99 sem juros </p>
+        <button  onclick="abrirLogin();" class="but_produto" >Compra</button>
+       </div>
+      <!--fIM_nome_preço_compra--> 
+    </div>
+   <!--descrição--> 
+  <p class="info_produto">Imagine nunca mais se preocupar com a alimentação do seu querido animal de estimação,
+         não importa onde você esteja. Apresentamos o nosso inovador Dispenser Automático de Ração,
+        uma solução de última geração para cuidar do seu pet.
+
+        Este dispositivo inteligente é controlado por um aplicativo intuitivo em seu smartphone.
+        Com apenas alguns toques na tela, você pode programar horários de alimentação precisos e porções adequadas para o seu animal. 
+        Esteja você no trabalho, em uma viagem de negócios ou até mesmo a quilômetros de distância,
+        o seu pet receberá a comida que precisa no momento certo.
+        
+        Nossa tecnologia confiável garante que você esteja sempre conectado ao seu companheiro peludo. 
+        Além disso, o Dispenser Automático de Ração é compatível com uma variedade de tipos de ração, 
+        atendendo às necessidades específicas do seu animal de estimação.
+        
+        A segurança e o bem-estar do seu pet são fundamentais para nós. Com o nosso Dispenser Automático de Ração, 
+        você tem a certeza de que seu amigo de quatro patas sempre será alimentado de maneira adequada e no horário certo. 
+        Cuide do seu pet com facilidade, mesmo quando estiver longe, e desfrute da paz de espírito que essa inovação tecnológica proporciona.
+    </p>
+   
+    <div class="linha3"></div>
+    <div class="linha2"></div>
+<!--fim_corpo--> 
+<!--rodape-->   
+    <footer>
+
+        <div class="pe1">
+            <h2>Início</h2>
+            <a href="index.html"><p>Home</p></a><br>
+            <a href="https://observatoriodosfamosos.uol.com.br/portal/wp-content/uploads/2023/08/manoel-gomes-70-mil-transformacao.jpg"><p>Download APK</p></a>
+        </div>
+        <div class="pe2">
+            <h2>Sobre Nós</h2>
+            <a href="criadores.html"><p>Criadores</p></a>
+        </div>
+        <div class="pe3">
+            <h2>Suporte</h2>
+            <a href="contato.html"><p>Contato</p></a>
+        </div>
+        <div class="links-sociais">
+            <a href="https://www.facebook.com/people/Nutripet_Oficial/100095408172003/" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/nutripet_oficial_hg/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+<!--fim_rodape-->
+<script src="script/app.js  " defer></script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+
+
+header img{
+    width: 260px;
+    height: 136px;
+    margin-left: 20px;
+    margin-top: -1px;
+    margin-bottom: -14px;
+}
+
+header{
+    background-color: #ffffff;
+    
+}
+
+.linha{
+    background-color: #97741b;
+    padding: 1px;
+}
+.linha2{
+    margin: 0;
+    background-color: #97741b;
+    padding: 1px;
+}
+.linha3{
+    margin-top: 0px;
+    background-color: #F1BA2C;
+    padding: 33px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F1BA2C;
+
+}
+
+ul{
+    margin: 5px auto 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 600px;
+    text-align: center;
+}
+
+li{
+    display: table-cell;
+    position: relative;
+    padding: 5px 0px;  
+}
+
+header a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 7px 17px;
+    position: relative;
+}
+
+header a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+header a:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px){
+    ul{
+        margin-top: 40px;
+    }
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    overflow-x: hidden;
+}
+    
+.beribaldo{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 0px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    margin-top: -25%;
+}
+
+
+
+/*nome_preço_compra*/
+    .org_produto{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        width: 100%;
+    }
+    .nome_produto{
+        margin-top: 7%;
+        margin-left: 3%;
+    }
+
+    .org_preco{
+        width: 100%;
+        display: flex;
+        text-align: justify;
+    }
+
+    .preco_produto{
+        margin-left: 6%;
+        margin-top: -7%;
+        font-size: 21px;
+        position: relative;
+        display: flex;
+    }
+    .porcentagem{
+        position: relative;
+        margin-top: 2%;
+        margin-left: 1%;
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+        font-size: 20px;
+    }.pre_produto{
+        position: absolute;
+        margin-left: 7%;
+        color: #F1BA2C; 
+        text-shadow: 
+            -1px -1px 0px #000, 
+            -1px 1px 0px #000,      
+            1px -1px 0px #000,    
+            1px 0px 0px #FFF;
+    ;}.pre2_produto{
+        margin-top: 6%;
+        margin-left: -3%;
+        color: #393939;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .parcela{
+        margin-left: 5%;
+        margin-top: -6%;
+        position: relative;
+        height: 20px;
+    }
+
+    .but_produto{
+        height: 54%;
+        width: 25%;
+        margin-top: -8%;
+        margin-left: 7%;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+    .but_produto:hover {
+        height: 53%;
+        width: 24%;
+    }
+/*FIM_nome_preço_compra*/
+/*Imagems*/
+#img_produto{
+  width: 32%;
+  height: 350px;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+  background-color: black;
+  padding: 4px;
+}
+#org_sub_img{
+    position: relative;
+    z-index: 2;
+    text-align: center;    
+    margin-left: 2%;
+    margin-top: 15%;
+    width: 30%;
+}
+#img_sub1{
+    width: 50px;
+    height: 70px;
+    display: block;
+    margin: 0;
+    margin-top: 18px;
+}
+#img_sub2{
+    width: 50px;
+    height: 70px;
+    display: block;
+    margin: 0;
+    margin-top: 18px;
+}
+/*Fim_Imagems*/
+
+.info_produto{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+footer{
+    display: flex;
+    margin-left: -2%;
+    margin-bottom: 4%;
+    margin-top: 8%;
+ }
+
+ footer a{
+    text-decoration: none; 
+    transition: transform 0.3s ease;
+    display: inline-block;
+ }
+
+ footer a:hover {
+    transform: scale(1.05);
+}
+
+ footer p, h2{
+    color: #393939;
+}
+
+ .pe3,
+ .pe2,
+ .pe1{
+    margin-left: 17%;
+    
+ }
+
+ .links-sociais {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 6%;
+    padding-left: 5%;
+}
+
+.links-sociais a {
+    margin: 0 14px;
+    transition: transform 0.3s ease;
+}
+
+.links-sociais img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.links-sociais a:hover {
+    transform: scale(1.1);
+}
+
+.instas{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: -135px;
+    padding-left: 5%;
+    padding: 118px;
+}
+
+.instas a{
+    margin: 0 14px;
+    transition: transform 0.3s ease;
+}
+
+.instas img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.instas a:hover {
+    transform: scale(1.1);
+}
+
