@@ -25,7 +25,38 @@ function alterarImg(imagem) {
         img_produto.src = imagem_sec;
         img_sub1.src = imagem_pri;
     } else if (imagem.alt === 'img_sub2'){
-        img_produto.src = imagem_ter
+        img_produto.src = imagem_ter;
         img_sub2.src = imagem_pri;
+    }
+}
+
+function alterarIdiota(imagem) {
+    var idiota_edu = 'idiota_edu'; // Supondo que 'idiota_edu' seja o ID da imagem educada
+    var edu_img = document.getElementById(idiota_edu);
+    var eu_img = document.getElementById(eu);
+    var euSrc = 'img/idiota_mascarado.jpg';
+
+    if (imagem.alt === 'idiota') {
+        edu_img.src = euSrc;
+        edu_img.alt = 'idiota_mascarado'
+    } else if (imagem.alt === 'idiota_mascarado') {
+        edu_img.src = 'img/idiota.jpg';
+        edu_img.alt = 'idiota'
+    }
+}
+
+function alterarEu(imagem) {
+    var eu = 'eu'; // Supondo que 'idiota_edu' seja o ID da imagem educada
+    
+    var edu_img = document.getElementById(idiota_edu);
+    var eu_img = document.getElementById(eu);
+    var euSrc = 'img/idiota_mascarado.jpg';
+
+    if (imagem.alt === 'idiota') {
+        edu_img.src = euSrc;
+        edu_img.alt = 'idiota_mascarado'
+    } else if (imagem.alt === 'idiota_mascarado') {
+        edu_img.src = 'img/idiota.jpg';
+        edu_img.alt = 'idiota'
     }
 }
